@@ -1,0 +1,2 @@
+grep -n -i world /home/xsp/test.txt
+find . -name "*.txt"

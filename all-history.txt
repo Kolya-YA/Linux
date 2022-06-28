@@ -1,0 +1,25 @@
+   0 mkdir -p /home/animals
+   1 cd /home/animals/
+   2 mkdir dogs cats fish
+   3 touch dogs/pluto cats/garfield fish/nemo
+   4 touch /tmp/adam
+   5 cd ..
+   6 mkdir humans
+   7 cp /tmp/adam humans/
+   8 touch /tmp/evA
+   9 mkdir -p /opt
+  10 mv /tmp/evA /opt/eve
+  11 mv /opt/eve humans/
+  12 ls -la humans/
+  13 history > /tmp/history.txt
+grep -n -i world /home/xsp/test.txt
+find . -name "*.txt"
+mkdir -p /home/user/start
+cd $_
+touch 1.txt
+echo "Start" > 1.txt
+date >> 1.txt
+mkdir -p /opt/task
+cp 1.txt /opt/task/start.txt
+cd /opt/task
+ls / | tail -4 >> start.txt
